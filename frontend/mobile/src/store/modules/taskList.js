@@ -20,7 +20,7 @@ export default {
         },
 
         getTaskList ({ commit, rootState, dispatch }, params) {
-            const url = `${global.getMobileUrlPrefix().instance}?limit=${params.limit}&offset=${params.offset}&create_method=mobile`
+            const url = `${global.getMobileUrlPrefix().instance}?limit=${params.limit}&offset=${params.offset}`
             return http.get(url).then(response => response)
         }
     }
