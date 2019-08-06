@@ -42,7 +42,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': APP_CODE,
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
         'TEST': {
@@ -51,6 +51,12 @@ DATABASES = {
             'COLLATION': 'utf8_general_ci',
         }
     },
+}
+
+REDIS = {
+    'host': 'localhost',
+    'port': 6379,
+    'db': 0
 }
 
 LOG_PERSISTENT_DAYS = 1
