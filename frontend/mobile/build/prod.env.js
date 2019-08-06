@@ -24,6 +24,6 @@ export default {
     staticUrl: `/static`,
     NODE_ENV: NODE_ENV,
     LOGIN_SERVICE_URL: JSON.stringify(''),
-    AJAX_URL_PREFIX: JSON.stringify('http://paas-ce51.cloud.yovole.com'), // 线上服务器路径
+    AJAX_URL_PREFIX: JSON.stringify('http://{BK_PAAS_URL}'), // 线上服务器路径
     SITE_URL: JSON.stringify('')
 }
