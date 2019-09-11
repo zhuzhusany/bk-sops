@@ -1,0 +1,180 @@
+.cache-form[data-v-498e026d] {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f0f1f5;
+  border-radius: 2px;
+}
+.cache-form .form-table[data-v-498e026d] {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.cache-form .form-table th[data-v-498e026d], .cache-form .form-table td[data-v-498e026d] {
+      padding: 9px;
+}
+.cache-form .form-table th[data-v-498e026d] {
+      position: relative;
+      width: 16%;
+      color: #313238;
+      font-weight: 400;
+}
+.cache-form .form-table .form-label[data-v-498e026d] {
+      padding-right: 20%;
+      text-align: right;
+}
+.cache-form .form-table .form-label label[data-v-498e026d] {
+        position: relative;
+}
+.cache-form .form-table .form-label.required label[data-v-498e026d]:after {
+        content: '*';
+        position: absolute;
+        top: 1px;
+        right: -10px;
+        color: #F00;
+        font-family: "SimSun";
+}
+.cache-form .form-table .form-content[data-v-498e026d] {
+      position: relative;
+      width: 40%;
+}
+.cache-form .form-table .cache-name[data-v-498e026d] {
+      padding: 0 10px;
+      width: 100%;
+      height: 32px;
+      line-height: 32px;
+      border: 1px solid #c3cdd7;
+      border-radius: 2px;
+      color: #63656e;
+      outline: none;
+}
+.cache-form .form-table .cache-name[data-v-498e026d]:hover {
+        border-color: #3c96ff;
+}
+.cache-form .form-table .cache-name[data-v-498e026d]:active {
+        border-color: #3c96ff;
+}
+.cache-form .form-table .cache-name[disabled="disabled"][data-v-498e026d] {
+        color: #aaa;
+        cursor: not-allowed;
+        background: #fafafa;
+}
+.cache-form .form-table .cache-name[disabled="disabled"][data-v-498e026d]:hover {
+          border-color: #c3cdd7;
+}
+.cache-form .form-table .cache-desc[data-v-498e026d] {
+      display: inline-block;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #c3cdd7;
+      border-radius: 2px;
+      color: #63656e;
+      outline: none;
+      resize: vertical;
+      min-height: 102px;
+      max-height: 140px;
+}
+.cache-form .form-table .cache-desc[data-v-498e026d]:hover {
+        border-color: #3c96ff;
+}
+.cache-form .form-table .cache-desc[data-v-498e026d]:active {
+        border-color: #3c96ff;
+}
+.cache-form .detail-table[data-v-498e026d] {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    font-size: 12px;
+}
+.cache-form .detail-table th[data-v-498e026d], .cache-form .detail-table td[data-v-498e026d] {
+      position: relative;
+      padding: 10px 20px;
+      border: 1px solid #dde4eb;
+}
+.cache-form .detail-table th[data-v-498e026d] {
+      width: 30%;
+      font-weight: 700;
+      text-align: center;
+}
+.cache-form .detail-table input[aria-invalid="true"] + .common-error-tip[data-v-498e026d] {
+      display: inline-block;
+}
+.cache-form .detail-table .common-error-tip[data-v-498e026d] {
+      position: absolute;
+      display: none;
+      left: 0;
+      bottom: 0;
+      font-size: 12px;
+      white-space: nowrap;
+}
+.cache-form .detail-table .td-with-input[data-v-498e026d]:hover {
+      border-style: double;
+      border-color: #3c96ff;
+}
+.cache-form .table-input[data-v-498e026d] {
+    width: 100%;
+    color: #63656e;
+    border: none;
+    outline: none;
+}
+.cache-form .delete-btn[data-v-498e026d] {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    padding: 0;
+    background: transparent;
+    font-size: 12px;
+    border: none;
+    color: #3a84ff;
+}
+
+.cache-edit[data-v-5ecd3cc1] {
+  height: calc(100% - 40px);
+  background: #ffffff;
+}
+.cache-content[data-v-5ecd3cc1] {
+  min-height: 100%;
+  padding: 30px 60px 60px;
+}
+.add-cache[data-v-5ecd3cc1] {
+  margin-bottom: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #c4c6cc;
+  font-size: 12px;
+  text-align: center;
+  border: 1px dashed #c4c6cc;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.add-cache[data-v-5ecd3cc1]:hover {
+    color: #3a84ff;
+    border-color: #a3c5fd;
+}
+.operate-area[data-v-5ecd3cc1] {
+  margin-top: -60px;
+  padding: 0 60px;
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px solid #cacedb;
+}
+.operate-area .bk-button[data-v-5ecd3cc1] {
+    height: 32px;
+    line-height: 32px;
+}
+.operate-area .bk-button[data-v-5ecd3cc1]:not(:last-child) {
+      margin-right: 6px;
+}
+.operate-area .save-btn[data-v-5ecd3cc1] {
+    width: 140px;
+}
+.common-error-tip[data-v-5ecd3cc1] {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+
+/*# sourceMappingURL=25.css.map*/
